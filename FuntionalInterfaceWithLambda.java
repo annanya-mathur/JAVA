@@ -6,9 +6,7 @@ interface A {
 public class Main
 {
 	public static void main(String[] args) {
-		A obj = () -> {
-		    System.out.println("in method");
-		};
+		A obj = () -> System.out.println("in method");
 		
 		obj.show();
 	}
